@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PainTracker</string>
+    <string name="title_activity_tab1">Tab1Activity</string>
+    <string name="title_activity_tab2">Tab2Activity</string>
+</resources>
