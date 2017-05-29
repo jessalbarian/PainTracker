@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PainTrackr</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_addrecord">Add Record</string>
+    <string name="title_records">Records</string>
+</resources>
