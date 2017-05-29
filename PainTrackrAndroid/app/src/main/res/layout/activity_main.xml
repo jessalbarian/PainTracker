@@ -9,6 +9,16 @@
     android:orientation="vertical"
     tools:context="arcticfox.studio.paintrackr.MainActivity">
 
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/colorPrimary"
+        app:menu="@menu/navigation"
+        app:itemTextColor="@drawable/tab_item"
+        app:itemIconTint="@drawable/tab_item" />
+
     <FrameLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
@@ -17,14 +27,6 @@
 
     </FrameLayout>
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@color/colorPrimary"
-        app:menu="@menu/navigation"
-        app:itemTextColor="@drawable/tab_item"
-        app:itemIconTint="@drawable/tab_item" />
+
 
 </LinearLayout>
